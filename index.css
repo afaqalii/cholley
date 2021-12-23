@@ -1,0 +1,187 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bakbak One', cursive;
+font-family: 'Josefin Sans', sans-serif;
+}
+.brand-name {
+    font-size: 2.5em;
+    color: lightslategrey;
+}
+.nav-link {
+    color: black;
+}
+
+.icons-input i {
+    position: relative;
+}
+.icons-input {
+    margin-left: 1rem;
+    display: flex;
+}
+
+.heading {
+    text-align: center;
+}
+
+.col {
+    text-align: center;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+}
+.row-two {
+    display: flex;
+
+}
+.item {
+    height: 600px;
+    width: 30%;
+}
+.content > p {
+    text-align: center;
+    color: white;
+
+}
+.best-selling {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)), url("../images/selling.png");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    background-size: contain;
+
+}
+.content {
+    position: absolute         ;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   top: 10%;
+}
+.content > h1 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+.best-selling-images {
+    margin-top: 19%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    justify-content: space-evenly;
+}
+.selling-items {
+    padding: 2rem 4rem;
+    gap: 2;   
+    background-color: #ecedec;
+}
+
+.skin-care-banner {
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0, 0.6)), url('../images/1-BANNER-HOME-PAGE-PHYTOBIOTECH-dfc24a36a8-1.png');
+    width: 100%;
+    height: 70vh;
+    background-position: cover;
+    background-size: contain;
+    margin-top: 6rem;
+}
+.skin-care-content {
+    width: 100%;
+    text-align: center;
+    padding: 3em;
+    color: white;
+    padding-top: 4rem ;
+}
+.search-icon {
+    background-color: darkgray;
+    padding: .8rem;
+}
+.letter-icon {
+    background-color: darkgray;
+    padding: .2rem;
+}
+.skin-care-p {
+   width: 40%;
+   margin-top: 4em;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.news-container {
+    margin:5rem auto;
+    text-align: center;
+}
+.news-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+.leaf-banner {
+    background-color: #F8FCFF;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem;
+}
+.cholley > img {
+    width: 10rem;
+    margin-bottom: 3rem;
+}
+.cholley {
+    width: 500px;
+    color: black;
+    font-size: .7em;
+}
+.quick-links {
+    width: 400px;
+}
+.links , .products{
+    text-align: left;
+    color: black;
+    font-size: .7em;
+    font-weight: bold;
+}
+.newsletter {
+    width: 700px;
+    color: black;
+    font-size: .7em;
+}
+.new-letter-form {
+    display: flex;
+}
+.skin-care-p {
+    line-height: 1.3rem;
+}
+.newsletter > p {
+    line-height: 1.2rem;
+}
+
+@media (max-width:400px) {
+    
+    
+    .row {
+     display: flex;
+     flex-direction: column;
+     background-color: #ecedec;
+     padding: 4rem;
+    }
+    .item {
+        display: none;
+    }
+    .col-item {
+        margin: 2rem;
+        border-bottom:  2px solid black;
+    }
+    
+}
+
+
+
+
+
+
+
+
